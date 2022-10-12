@@ -1,0 +1,26 @@
+.slider {
+  background: rgb(99, 13, 13);
+  height: 80px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.slider marquee {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.slider ul {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.slider ul li {
+  margin-right: 80px;
+}
