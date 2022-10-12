@@ -7,13 +7,13 @@
   width: 356px;
 }
 
-.postItem img {
+img {
   width: 100%;
   height: auto;
   max-width: 100%;
   border-radius: 10px;
 }
-.postItem a {
+a {
   font-size: 30px;
   font-weight: 700;
   margin-top: 0px;
@@ -21,7 +21,7 @@
   color: #000;
 }
 
-.postItem a:hover {
+a:hover {
   color: rgb(99, 91, 252);
   transition: 0.5s;
 }

@@ -15,7 +15,9 @@ const SinglePost = (props) => {
         }}
       />
       <div className={classes.box}>
-        <a href={props.url}>{props.title}</a>
+        <a target="_blank" href={props.url}>
+          {props.title}
+        </a>
         <p>{props.description}</p>
       </div>
     </div>

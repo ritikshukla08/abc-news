@@ -23,10 +23,10 @@ const newsSlice = createSlice({
       state.isLoading = !state.isLoading;
     },
     addNews(state, action) {
-      state.newsItem = action.payload;
+      state.newsItem.push(action.payload);
     },
     updatePage(state, action) {
-      state.page = action.payload;
+      ++state.page;
     },
     addTotalResult(state, action) {
       state.totalResults = action.payload;

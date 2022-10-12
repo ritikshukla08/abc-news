@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className={classes.navLogo}>
           <Logo />
         </div>
-        <div className={classes.nav}>
+        <div>
           <ul className={classes.catagories}>
             {newsCategories.map((cat, i) => (
               <li key={i} onClick={changeCategory} className={classes.navItem}>
